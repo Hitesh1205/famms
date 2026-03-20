@@ -1,0 +1,39 @@
+/* ONLINE FONT LINK */
+.playfair-display-font {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 40px;
+}
+.montserrat-font {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  /* font-weight: 600; */
+  font-style: normal;
+}
+/* NAVBAR hover */
+.nav-active {
+  color: #ff4d4d;
+}
+.nav-hover:hover {
+  color: #ff4d4d;
+}
+.section-title::after {
+  content: "";
+  width: 80px;
+  height: 5px;
+  background: red;
+  display: block;
+  margin: 10px auto 0;
+}
+
+.bg-card {
+  background-color: rgb(8, 59, 69);
+  color: #ffffff;
+}
+
+.footer {
+  background: rgb(8, 59, 69);
+  color: white;
+}
